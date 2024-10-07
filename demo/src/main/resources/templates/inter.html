@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Links</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: skyblue; /* Set background color to blue */
+  }
+  .container {
+    text-align: center;
+  }
+  p {
+    font-weight: bold;
+  }
+  a {
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s ease;
+  }
+  img {
+    max-width: 200px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  a:hover img {
+    transform: scale(1.1); /* Increase size by 10% */
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Please select the subject to start the Quiz</h1>
+  <a href="quizi?name=java"><img src="/java.png" alt="Java"></a>
+  <a href="quizi?name=python"><img src="/python.png" alt="Python"></a>
+</div>
+
+</body>
+</html>

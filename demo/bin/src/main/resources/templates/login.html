@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>interior design </title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+
+</head>
+<body class="All">
+
+<div class="full">
+    <div class="navbar">
+        <h1 id="logo">QUIZ</h1>
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">contact</a></li>
+
+            <li><a href="">help</a></li>
+            <li><a href="">Sign Up</a></li>
+
+        </ul>
+    </div>
+    <div class="house">
+        <h1>TEST YOURSELF</h1><br>
+        <p1 id="maypara"><b>please login to TEST <BR>Yourself with challenging question</b></p1><br>
+        <br>
+
+        <br>
+        <form id="form" action="quiz">
+            <div class="input ">
+                <input id="name" name="username" type="text" placeholder="enter your name"><br>
+                <br>
+            </div>
+            <div class="input">
+                <input id="email" name="e-mail" type="emailid" placeholder="enter your mailid here"><BR>
+                <BR>
+            </div>
+
+            <button  id="even" type="submit"><span></span><B>login</B></button>
+        </form>
+    </div>
+</div>
+<script src="/index.js"></script>
+</body>
+</html>
+
